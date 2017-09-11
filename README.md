@@ -30,15 +30,12 @@ Network/Computer Security
 From Smart cards to Network Security Appliances, to anti-network reconnaissance. Security is my passion. Given the slightest provocation I am known to go on evangelical tangents about security.
 
 Shell Scripting
-- Automation is my friend.
-- Experience developing portable POSIX and FHS compliant scripts for a variety of tasks.
-- While I can probobly still churn out a bash script faster I prefer the more readable and maintainable python scripts theses days.
+ - Automation is my friend.
+ - Experience developing portable POSIX and FHS compliant scripts for a variety of tasks.
+ - While I can probobly still churn out a bash script faster I prefer the more readable and maintainable python scripts theses days.
 
 Programming
  - Java (including native code integration, and java legacy support as far back as 5.0),
  - Objective-C and currently learning swing to name a few.
 
-Some Project history:
- - [Java] (2006-2010) While I formally studdied Java (and C++) in school, much of my knowlege comes from building my hobby project space combat game (MPF) which given the oportunity I might go on short rants about. Rants such as the programphoria of getting the graphics and game logic threads to work or the complexity of designing the ships primitive AI.
- - [Objective-C] Back in 2014 I published "Pentad the game" on the Mac App Store℠ (App Store is a service mark of Apple Inc.)
- - [Python] In order to learn python I recently started a mostly python/php based project for a DIY style wifi-router (still in private beta).
+Ok, enough context, you came here to checkout some of my work, remember?
