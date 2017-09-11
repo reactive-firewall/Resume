@@ -19,7 +19,7 @@ I am ...
 
 I am also ...
  - most comfortable with air-conditioning, a keyboard, headphones, and yummy snacks in reach. (simple pleasures)
- - usually wearing one of my many neck-ties, but don't worry.
+ - usually wearing one of my many neck-ties.
  - a team player who wants the whole team to succeed.
  - only human.
 
