@@ -1,4 +1,4 @@
-Looking for someone to add to your technical team? Hire me!
+Looking for someone to add to your technical team? [Hire][] [me][]!
 
 # About Me #
 You probably just want to take a look at my work, but let me give you some context first.
@@ -12,7 +12,7 @@ I am ...
  - self-motivated and continually seek to learn new skills.
  - enthusiastic about defensive security.
  - an anylitical, divergent-thinker, but with a laser like focus on my current problem.
- - a questioning skeptic of technology who believes in murphy's law and test-driven development. (keyword is goal-oriented)
+ - a questioning skeptic of technology who believes in murphy's law and [test-driven][] development. (keyword is goal-oriented)
  - a curious and questioning learner who loves a variaty of defendable perspectives to fuel my problem solving skills.
  - often curious about things beyond the scope of my role in order to better understand the context of my solutions.
  - someone who does not think it is resolved until the code to fix it ships.
@@ -27,15 +27,40 @@ I attained my B.S. in computer science back in 2013.
 Some highlights from my skill set are:
 
 Network/Computer Security
+[![Network/Computer Security](https://img.shields.io/badge/Network%20Computer-Security-green.svg)](https://www.github.com/reactive-firewall/Pocket-PiAP)
 From Smart cards to Network Security Appliances, to anti-network reconnaissance. Security is my passion. Given the slightest provocation I am known to go on evangelical tangents about security.
 
-Shell Scripting
+[![Shell Scripting](https://img.shields.io/badge/Shell-Scripting-blue.svg)][bash]
  - Automation is my friend.
- - Experience developing portable POSIX and FHS compliant scripts for a variety of tasks.
- - While I can probobly still churn out a bash script faster I prefer the more readable and maintainable python scripts theses days.
+ - Experience developing portable POSIX and FHS compliant [scripts][bash] for a variety of tasks.
+ - While I can probobly still churn out a [bash script][bash] faster I prefer the more [readable][PEP20] and [maintainable][] [python scripts][python] these days.
 
-Programming
- - Java (including native code integration, and java legacy support as far back as 5.0),
+[![Programming](https://img.shields.io/badge/Programming-bright-green.svg)](https://www.github.com/reactive-firewall/python-repo)
+ - [![Java](https://img.shields.io/badge/Java-orange.svg)](https://www.github.com/reactive-firewall/java-repo) (including native code integration, and [java][] legacy support as far back as 5.0),
  - Objective-C and currently learning swing to name a few.
 
 Ok, enough context, you came here to checkout some of my work, remember?
+
+[id]: http://example.com/  "Optional Title Here"
+[Website]: https://sites.google.com/site/poetryinthecode/about  "My Website"
+[hire]: https://www.linkedin.com/in/kwalls  "hire"
+[me]: https://www.github.com/reactive-firewall  "me"
+[hire]: https://www.linkedin.com/in/kwalls  "hire"
+[test-driven]: https://travis-ci.org/reactive-firewall  "Test-Driven"
+[id]: http://example.com/  "Optional Title Here"
+[Repositories]: https://github.com/reactive-firewall?tab=repositories "Repositories"
+[PEP20]: https://www.python.org/dev/peps/pep-0020/  "PEP-20"
+[maintainable]: https://codeclimate.com/github/reactive-firewall/python-repo/trends/churn  "Maintainable"
+[bash]: https://www.github.com/reactive-firewall/bash-repo  "Bash"
+[python]: https://www.github.com/reactive-firewall/python-repo  "Python"
+[java]: https://www.github.com/reactive-firewall/java-repo  "Java"
+
+## Still reading? read some of my favorite quotes instead. ##
+>The biggest shock for me in moving from academia to industry is just how much of other people’s code I have to read. It’s a skill, and I got much better at it with practice. Just like reading English.
+>
+>Unfortunately, effective programming is as hard, if not harder, than effective essay writing. Writing understandable code that’s also efficient enough and general enough takes lots of revision, and ideally feedback from a good code reviewer. 
+
+[readable-code-paper]: https://lingpipe-blog.com/2009/10/15/the-futility-of-commenting-code/ "The futility of commenting code"
+
+
+
