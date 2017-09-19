@@ -5,15 +5,15 @@ You probably just want to take a look at [my][me] work, but let [me][me] give yo
 
 [My][me] idea of [my][me] next ideal job is a Systems Reliability Engineer (but [I'm][me] also interested in the full-stack development)
 But why would I single out Systems Reliability Engineer role?
-Simple: Does your team need a developer who understands DevOps is not just about half development and half operations, rather it is the integrated fusion of the two roles. That balance where the business need of operations to ensure site or service reliability with the skills of an engineer who loves not only finding but automating away those repeatitive operation tasks, to allow for proactively scaling the infrastructure to meet ever-increasing demand.
+Simple: Does your team need a developer who understands DevOps is not just about half development and half operations, rather it is the integrated fusion of the two roles. That balance where the business need of operations to ensure site or service reliability with the skills of an engineer who loves not only finding but automating away those repetitive operation tasks, to allow for proactively scaling the infrastructure to meet ever-increasing demand.
 [I][me] prefer a [Test-Driven][] development approach to ensure quality, all proactivly done before the production even goes live. What could be more fun then doing a little bit of everything: scripting (take your pick from: [bash][], [python][], [php][], etc) and programming ([Java][], C++, Objective-C, perhaps swift, etc.) and the ever improved customer live demonstration of systems reliability engineering gone right (i.e. Where you sleep well at night).
 
 I am ...
  - self-motivated and continually seek to learn new skills.
  - enthusiastic about [defensive security][].
- - an anylitical, and often [divergent-thinker][], but with a laser like focus on [my][me] current problem.
+ - an analytical, and often [divergent-thinker][], but with a laser like focus on [my][me] current problem.
  - a questioning skeptic of technology who believes in murphy's law and [test-driven][] development. (keyword is goal-oriented)
- - a curious and questioning learner who loves a variaty of defendable perspectives to fuel my problem solving skills.
+ - a curious and questioning learner who loves a variety of defendable perspectives to fuel my problem solving skills.
  - often curious about things beyond the scope of [my][me] role in order to better understand the context of [my][me] solutions.
  - someone who does not think it is resolved until the code to fix it ships.
 
@@ -32,7 +32,7 @@ From Smart cards to Network Security Appliances, to anti-network reconnaissance.
 [![Shell Scripting](https://img.shields.io/badge/Shell-Scripting-blue.svg)][bash]
  - Automation is my friend.
  - Experience developing portable POSIX and FHS compliant [scripts][bash] for a variety of [tasks][].
- - While [I][me] can probobly still churn out a [bash script][bash] faster I prefer the more [readable][PEP20] and [maintainable][] [python scripts][python] these days.
+ - While [I][me] can probably still churn out a [bash script][bash] faster I prefer the more [readable][PEP20] and [maintainable][] [python scripts][python] these days.
 
 [![Programming](https://img.shields.io/badge/Programming--green.svg)](https://www.github.com/reactive-firewall/python-repo)
  - [![Java](https://img.shields.io/badge/Java-orange.svg)](https://www.github.com/reactive-firewall/java-repo) (including some native code integration, and [java][] legacy support as far back as 5.0),
