@@ -34,7 +34,7 @@ From Smart cards to Network Security Appliances, to anti-network reconnaissance.
  - Experience developing portable POSIX and FHS compliant [scripts][bash] for a variety of [tasks][].
  - While [I][me] can probobly still churn out a [bash script][bash] faster I prefer the more [readable][PEP20] and [maintainable][] [python scripts][python] these days.
 
-[![Programming](https://img.shields.io/badge/Programming-green.svg)](https://www.github.com/reactive-firewall/python-repo)
+[![Programming](https://img.shields.io/badge/Programming--green.svg)](https://www.github.com/reactive-firewall/python-repo)
  - [![Java](https://img.shields.io/badge/Java-orange.svg)](https://www.github.com/reactive-firewall/java-repo) (including some native code integration, and [java][] legacy support as far back as 5.0),
  - Objective-C and C++ to name a few.
 
