@@ -11,10 +11,10 @@ Simple: Does your team need a developer who understands DevOps is not just about
 I am ...
  - self-motivated and continually seek to learn new skills.
  - enthusiastic about [defensive security][].
- - an anylitical, and often [divergent-thinker][], but with a laser like focus on my current problem.
+ - an anylitical, and often [divergent-thinker][], but with a laser like focus on [my][me] current problem.
  - a questioning skeptic of technology who believes in murphy's law and [test-driven][] development. (keyword is goal-oriented)
  - a curious and questioning learner who loves a variaty of defendable perspectives to fuel my problem solving skills.
- - often curious about things beyond the scope of my role in order to better understand the context of my solutions.
+ - often curious about things beyond the scope of [my][me] role in order to better understand the context of [my][me] solutions.
  - someone who does not think it is resolved until the code to fix it ships.
 
 I am also ...
@@ -26,7 +26,6 @@ I am also ...
 I attained my B.S. in computer science back in 2013.
 Some highlights from my skill set are:
 
-Network/Computer Security
 [![Network/Computer Security](https://img.shields.io/badge/Network%20Computer-Security-green.svg)](https://www.github.com/reactive-firewall/Pocket-PiAP)
 From Smart cards to Network Security Appliances, to anti-network reconnaissance. Security is my passion. Given the slightest provocation I am known to go on evangelical tangents about security.
 
@@ -35,7 +34,7 @@ From Smart cards to Network Security Appliances, to anti-network reconnaissance.
  - Experience developing portable POSIX and FHS compliant [scripts][bash] for a variety of [tasks][].
  - While [I][me] can probobly still churn out a [bash script][bash] faster I prefer the more [readable][PEP20] and [maintainable][] [python scripts][python] these days.
 
-[![Programming](https://img.shields.io/badge/Programming-bright-green.svg)](https://www.github.com/reactive-firewall/python-repo)
+[![Programming](https://img.shields.io/badge/Programming-green.svg)](https://www.github.com/reactive-firewall/python-repo)
  - [![Java](https://img.shields.io/badge/Java-orange.svg)](https://www.github.com/reactive-firewall/java-repo) (including some native code integration, and [java][] legacy support as far back as 5.0),
  - Objective-C and C++ to name a few.
 
@@ -53,10 +52,8 @@ Ok, enough context, you came here to checkout some of [my][me] [work][Repositori
 [maintainable]: https://codeclimate.com/github/reactive-firewall/python-repo/trends/churn  "Maintainable"
 [bash]: https://www.github.com/reactive-firewall/bash-repo  "Bash"
 [python]: https://www.github.com/reactive-firewall/python-repo  "Python"
+[php]: https://www.github.com/reactive-firewall/PiAP-Webroot  "PHP"
 [java]: https://www.github.com/reactive-firewall/java-repo  "Java"
-
-
-## Still reading? here are some ideas worth spreading. ##
 [readable-code-paper]: https://lingpipe-blog.com/2009/10/15/the-futility-of-commenting-code/ "The futility of commenting code"
 [divergent-thinker]: https://www.cleverism.com/idea-generation-divergent-vs-convergent-thinking/  "Divergent thinker"
 
