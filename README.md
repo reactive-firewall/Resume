@@ -1,17 +1,17 @@
 Looking for someone to add to your technical team? [Hire][] [me][]!
 
 # About Me #
-You probably just want to take a look at my work, but let me give you some context first.
+You probably just want to take a look at [my][me] work, but let [me][me] give you some context first.
 
-My idea of my next ideal job is a Systems Reliability Engineer (but I'm also interested in the full-stack development)
+[My][me] idea of [my][me] next ideal job is a Systems Reliability Engineer (but [I'm][me] also interested in the full-stack development)
 But why would I single out Systems Reliability Engineer role?
 Simple: Does your team need a developer who understands DevOps is not just about half development and half operations, rather it is the integrated fusion of the two roles. That balance where the business need of operations to ensure site or service reliability with the skills of an engineer who loves not only finding but automating away those repeatitive operation tasks, to allow for proactively scaling the infrastructure to meet ever-increasing demand.
-I prefer a Test-Driven-Development approach to ensure quality, all proactivly done before the production even goes live. What could be more fun then doing a little bit of everything: scripting (take your pick from: bash, python, php, etc) and programming (Java, C++, Objective-C, perhaps swift, etc.) and the ever improved customer live demonstration of systems reliability engineering gone right (i.e. Where you sleep well at night).
+[I][me] prefer a [Test-Driven][] development approach to ensure quality, all proactivly done before the production even goes live. What could be more fun then doing a little bit of everything: scripting (take your pick from: [bash][], [python][], [php][], etc) and programming ([Java][], C++, Objective-C, perhaps swift, etc.) and the ever improved customer live demonstration of systems reliability engineering gone right (i.e. Where you sleep well at night).
 
 I am ...
  - self-motivated and continually seek to learn new skills.
- - enthusiastic about defensive security.
- - an anylitical, divergent-thinker, but with a laser like focus on my current problem.
+ - enthusiastic about [defensive security][].
+ - an anylitical, and often [divergent-thinker][], but with a laser like focus on my current problem.
  - a questioning skeptic of technology who believes in murphy's law and [test-driven][] development. (keyword is goal-oriented)
  - a curious and questioning learner who loves a variaty of defendable perspectives to fuel my problem solving skills.
  - often curious about things beyond the scope of my role in order to better understand the context of my solutions.
@@ -32,22 +32,22 @@ From Smart cards to Network Security Appliances, to anti-network reconnaissance.
 
 [![Shell Scripting](https://img.shields.io/badge/Shell-Scripting-blue.svg)][bash]
  - Automation is my friend.
- - Experience developing portable POSIX and FHS compliant [scripts][bash] for a variety of tasks.
- - While I can probobly still churn out a [bash script][bash] faster I prefer the more [readable][PEP20] and [maintainable][] [python scripts][python] these days.
+ - Experience developing portable POSIX and FHS compliant [scripts][bash] for a variety of [tasks][].
+ - While [I][me] can probobly still churn out a [bash script][bash] faster I prefer the more [readable][PEP20] and [maintainable][] [python scripts][python] these days.
 
 [![Programming](https://img.shields.io/badge/Programming-bright-green.svg)](https://www.github.com/reactive-firewall/python-repo)
- - [![Java](https://img.shields.io/badge/Java-orange.svg)](https://www.github.com/reactive-firewall/java-repo) (including native code integration, and [java][] legacy support as far back as 5.0),
- - Objective-C and currently learning swing to name a few.
+ - [![Java](https://img.shields.io/badge/Java-orange.svg)](https://www.github.com/reactive-firewall/java-repo) (including some native code integration, and [java][] legacy support as far back as 5.0),
+ - Objective-C and C++ to name a few.
 
-Ok, enough context, you came here to checkout some of my work, remember?
+Ok, enough context, you came here to checkout some of [my][me] [work][Repositories], remember?
 
-[id]: http://example.com/  "Optional Title Here"
+
 [Website]: https://sites.google.com/site/poetryinthecode/about  "My Website"
 [hire]: https://www.linkedin.com/in/kwalls  "hire"
 [me]: https://www.github.com/reactive-firewall  "me"
-[hire]: https://www.linkedin.com/in/kwalls  "hire"
+[tasks]: https://www.github.com/reactive-firewall?tab=repositories  "tasks"
 [test-driven]: https://travis-ci.org/reactive-firewall  "Test-Driven"
-[id]: http://example.com/  "Optional Title Here"
+[defensive security]: https://en.wikipedia.org/wiki/Blue_team_(computer_security) "Defensive Security"
 [Repositories]: https://github.com/reactive-firewall?tab=repositories "Repositories"
 [PEP20]: https://www.python.org/dev/peps/pep-0020/  "PEP-20"
 [maintainable]: https://codeclimate.com/github/reactive-firewall/python-repo/trends/churn  "Maintainable"
@@ -55,12 +55,10 @@ Ok, enough context, you came here to checkout some of my work, remember?
 [python]: https://www.github.com/reactive-firewall/python-repo  "Python"
 [java]: https://www.github.com/reactive-firewall/java-repo  "Java"
 
-## Still reading? read some of my favorite quotes instead. ##
->The biggest shock for me in moving from academia to industry is just how much of other people’s code I have to read. It’s a skill, and I got much better at it with practice. Just like reading English.
->
->Unfortunately, effective programming is as hard, if not harder, than effective essay writing. Writing understandable code that’s also efficient enough and general enough takes lots of revision, and ideally feedback from a good code reviewer. 
 
+## Still reading? here are some ideas worth spreading. ##
 [readable-code-paper]: https://lingpipe-blog.com/2009/10/15/the-futility-of-commenting-code/ "The futility of commenting code"
+[divergent-thinker]: https://www.cleverism.com/idea-generation-divergent-vs-convergent-thinking/  "Divergent thinker"
 
 
 
