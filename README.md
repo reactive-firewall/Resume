@@ -17,9 +17,10 @@ You [probably just want to take a look at my work][Repositories], [but][] [let](
 [I][me] attained [my][me] B.S. in [computer science][] back in 2013.
 [Some](https://www.wordnik.com/words/some) [`highlights` from my skill set are][hire]:
 
-[![Network/Computer Security](https://img.shields.io/badge/Network%20Computer-Security-yellow.svg)](https://www.github.com/reactive-firewall/Pocket-PiAP)
 ## Security is my passion. ##
 _Given the slightest provocation [I][me] am known to go on evangelical tangents about security._
+
+[![Network/Computer Security](https://img.shields.io/badge/Network%20Computer-Security-yellow.svg)](https://www.github.com/reactive-firewall/Pocket-PiAP)
  - [Smart cards][smart cards]
  - [Network Security Appliances](https://duckduckgo.com/?q=Network+Security+Appliances)
  - anti-network reconnaissance.
