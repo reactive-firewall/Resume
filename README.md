@@ -25,6 +25,7 @@ _Given the slightest provocation [I][me] am known to go on evangelical tangents 
  - [Network Security Appliances](https://duckduckgo.com/?q=Network+Security+Appliances)
  - Anti-network Reconnaissance.
 
+
 [![Shell Scripting](https://img.shields.io/badge/Shell-Scripting-blue.svg)][bash]
  - [Automation is my friend.][test-driven]
  - [I have experience developing portable POSIX and FHS compliant scripts][bash] [for a variety of tasks][tasks].
