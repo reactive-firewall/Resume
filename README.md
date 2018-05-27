@@ -1,9 +1,9 @@
 [Looking for someone to add to your technical team? Hire][hire] [me][]!
 
 # [About Me][me] #
-You [probably just want to take a look at my work][Repositories], [but][] [let](http://www.catb.org/jargon/html/L/let-the-smoke-out.html) [me][me] [give][here] you [some context first][here].
+You [probably just want to take a look at my work][Repositories], but let [me][] give you [some context first][here].
 
-[These days][], [I][me] [am actively seeking to join an exciting team to help solve real world problems][hire]. [I][me] [got into DevOps](https://en.wikipedia.org/wiki/DevOps), [and][] [computer science][] [in general][generalization], because [I][me] [love that once a problem is solved, its solution can be saved to allow for continuous progress and development][why computer science]. [A particular passion of mine is bringing security solutions to everyday development][chroot]. [While I consider myself  a developer-gone-sysadmin first (think site-reliability engineer)][SRE], [I][me] like to approach [my][me] [work from the mindset of a security penetration tester][blue-team]. [I][me] [treat security like a first-class citizen, opting to assume][chroot] [my][me] [code][Repositories] [will be used in a hostile environment][chroot]. [You can trust me to always proactively approach a problem with security in mind][blue-team] [and][] [automation in view][Sod's Law].
+[These days][], [I][me] [am actively seeking to join an exciting team to help solve real world problems][hire]. [I][me] got into [computer science][] [in general][generalization], because [I][me] [love that once a problem is solved, its solution can be saved to allow for continuous progress and development][why computer science]. [A particular passion of mine is bringing security solutions to everyday development][chroot]. While [I][me] consider [myself][me] a software developer first, [I][me] like to approach [my][me] [work from the mindset of a security penetration tester][blue-team]. [I][me] [treat security like a first-class citizen, opting to assume][chroot] [my][me] [code][Repositories] [will be used in a hostile environment][chroot]. [You can trust me to always proactively approach a problem with security in mind][blue-team] [and][] [automation in view][Sod's Law].
 
 [I][me] am ...
  - self-motivated [and][] [continually seek to learn new skills][pulse].
@@ -18,7 +18,7 @@ You [probably just want to take a look at my work][Repositories], [but][] [let](
 [Some](https://www.wordnik.com/words/some) [`highlights` from my skill set are][hire]:
 
 ## Security is my passion. ##
-_Given the slightest provocation [I][me] am known to go on evangelical tangents about security._
+_Given the slightest provocation [I][me] am known to go on evangelical code review tangents about security._
 
 [![Network/Computer Security](https://img.shields.io/badge/Network%20Computer-Security-yellow.svg)](https://www.github.com/reactive-firewall/Pocket-PiAP)
  - [Smart cards][smart cards]
