@@ -6,7 +6,7 @@ I approach my work from a security mindset. Security isn't merely a protocol to 
 
 Failure, to me, is not a black hole to avoid but a nebula where new stars are born. External factors may make "failure" inevitable, but it's our reaction that truly defines us. I respond to setbacks by learning from them, as they've taught me more than success ever has. Each challenge enhances my journey, making it a perpetual learning experience.
 
-### In Summation:
+## In Summation
 
 **Code is my poetry.**
 
