@@ -1,0 +1,40 @@
+# .github/workflows/markdown-lint.yml
+name: Markdown Lint
+
+on:
+  push:
+    branches: [ main, master, draft, draft* ]
+  pull_request:
+    branches: [ main, master ]
+
+permissions: {}  # Setting default permissions to none for enhanced security
+
+jobs:
+  markdown-lint:
+  permissions: read
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ripgrep
+
+      - name: Run Markdown Lint Script
+        shell: bash
+        run: |
+          shopt -s globstar nullglob
+          # Check for improper heading increments
+          rg '^#{1,6} ' --no-filename -n **/*.md | awk -F: '{
+            line_num = $1;
+            heading = $2;
+            match(heading, /^(#+)/, m);
+            current_level = length(m[1]);
+            if (prev_level && (current_level - prev_level) > 1) {
+              print "Improper heading increment at line " line_num;
+            }
+            prev_level = current_level;
+          }'
+          # Check for headings with trailing punctuation
+          rg -n '^#{1,6} .+[.!?:;]$' **/*.md
