@@ -1,0 +1,37 @@
+# .github/workflows/yaml-lint.yml
+---
+name: YAML Lint
+on:
+  push:
+    branches: ["main", "master", draft, draft*]
+  pull_request:
+    branches: ["main", "master"]
+
+permissions: {}  # Setting default permissions to none for enhanced security
+
+jobs:
+  ymal-lint:
+    permissions:
+      contents: read
+      statuses: write
+
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Apt-Get Dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y yamllint
+
+      - name: Lint Workflow YAML
+        if: ${{ success() }}
+        run: |
+          yamllint -v || true ;
+          yamllint -f github --no-warnings .github/workflows/yaml-lint.yml ;
+
+      - name: Lint Yaml Files
+        if: ${{ success() }}
+        run: |
+          git ls-files --exclude-standard -z -- *.yml **/*.yml |\
+          xargs -0 -I{} yamllint -f github "{}" ;
