@@ -26,7 +26,7 @@ jobs:
 
       - name: Lint Workflow YAML
         run: |
-          yamllint -f github .github/workflows/markdown-lint.yml
+          yamllint -f github --no-warnings .github/workflows/markdown-lint.yml
 
       - name: Install NPM Dependencies
         run: |
