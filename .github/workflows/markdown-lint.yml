@@ -1,11 +1,11 @@
 # .github/workflows/markdown-lint.yml
+---
 name: Markdown Lint
-
 on:
   push:
-    branches: [ main, master, draft, draft* ]
+    branches: ["main", "master", draft, draft*]
   pull_request:
-    branches: [ main, master ]
+    branches: ["main", "master"]
 
 permissions: {}  # Setting default permissions to none for enhanced security
 
@@ -26,7 +26,7 @@ jobs:
 
       - name: Lint Workflow YAML
         run: |
-          yamllint .github/workflows/markdown-lint.yml
+          yamllint -f github .github/workflows/markdown-lint.yml
 
       - name: Run Markdown Lint Script
         shell: bash
