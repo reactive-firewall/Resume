@@ -27,17 +27,4 @@ jobs:
       - name: Run Markdown Lint Script
         shell: bash
         run: |
-          shopt -s globstar nullglob
-          # Check for improper heading increments
-          rg '^#{1,6} ' --no-filename -n **/*.md | awk -F: '{
-            line_num = $1;
-            heading = $2;
-            match(heading, /^(#+)/, m);
-            current_level = length(m[1]);
-            if (prev_level && (current_level - prev_level) > 1) {
-              print "Improper heading increment at line " line_num;
-            }
-            prev_level = current_level;
-          }'
-          # Check for headings with trailing punctuation
-          rg -n '^#{1,6} .+[.!?:;]$' **/*.md
+          ./.github/bin/markdown_list_action.bash
