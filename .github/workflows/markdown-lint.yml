@@ -19,16 +19,20 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Install Dependencies
+      - name: Install Apt-Get Dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y ripgrep yamllint gawk
+          sudo apt-get install -y yamllint npm
 
       - name: Lint Workflow YAML
         run: |
           yamllint -f github .github/workflows/markdown-lint.yml
 
-      - name: Run Markdown Lint Script
-        shell: bash
+      - name: Install NPM Dependencies
         run: |
-          ./.github/bin/markdown_list_action.bash
+          sudo npm install -g markdownlint-cli
+
+      - name: Lint Markdown Files
+        run: |
+          git ls-files --exclude-standard -z -- *.md **/*.md |\
+          xargs -0 -I{} markdownlint "{}" ;
