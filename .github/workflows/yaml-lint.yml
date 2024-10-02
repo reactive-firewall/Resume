@@ -25,7 +25,7 @@ jobs:
           config_file: .yamllint
           format: github
           no_warnings: true
-        if: ${{ !canceled() }}
+        if: ${{ !!cancelled() }}
       - name: Lint YAML Files
         uses: ibiqlik/action-yamllint@v3
         with:
