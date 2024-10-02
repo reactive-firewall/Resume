@@ -1,7 +1,5 @@
 # .markdownlint.yaml
 ---
-extends: markdownlint:recommended
-
 MD001: true   # Enforce proper heading increments
 MD026:  # Disallow trailing punctuation in headings
   punctuation: ",;:!"  # - ('1.', '2.', etc. are ok though)
