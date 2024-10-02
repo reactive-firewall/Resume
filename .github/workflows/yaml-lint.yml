@@ -33,5 +33,5 @@ jobs:
       - name: Lint Yaml Files
         if: ${{ success() }}
         run: |
-          git ls-files --exclude-standard -z -- *.yml **/*.yml |\
-          xargs -0 -I{} yamllint -f github "{}" ;
+          git ls-files --exclude-standard -z -- .*.yaml *.yml **/*.yml |\
+          xargs -0 -I{} yamllint -f github --no-warnings "{}" ;
