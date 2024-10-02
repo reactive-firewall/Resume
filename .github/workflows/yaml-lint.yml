@@ -10,7 +10,7 @@ on:  # yamllint disable-line rule:truthy
 permissions: {}  # Setting default permissions to none for enhanced security
 
 jobs:
-  ymal-lint:
+  yaml-lint:
     permissions:
       contents: read
       statuses: write
@@ -26,7 +26,7 @@ jobs:
           format: github
           no_warnings: true
         if: ${{ !caanceled() }}
-      - name: Lint Yaml Files
+      - name: Lint YAML Files
         uses: ibiqlik/action-yamllint@v3
         with:
           file_or_dir: ./.*.yaml ./*.yml ./**/*.yml
