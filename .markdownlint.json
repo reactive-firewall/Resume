@@ -1,5 +1,4 @@
 {
-  "extends": "markdownlint:recommended",
   "MD001": true,
   "MD026": {
     "punctuation": ",;:!"

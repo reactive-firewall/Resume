@@ -1,5 +1,5 @@
 # .markdownlint.yaml
-extends: markdownlint:recommended
+# extends: markdownlint:recommended
 
 MD001: true   # Enforce proper heading increments
 MD026:  # Disallow trailing punctuation in headings
