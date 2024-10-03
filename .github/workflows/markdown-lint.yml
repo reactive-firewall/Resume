@@ -32,7 +32,14 @@ jobs:
         run: |
           sudo npm install -g markdownlint-cli@latest
 
-      - name: Lint Markdown Files
+      - name: Lint Markdown Files with YAML config
+        if: ${{ !cancelled() }}
         run: |
           git ls-files --exclude-standard -z -- *.md **/*.md |\
-          xargs -0 -I{} markdownlint "{}" --config .markdownlint.json --verbose ;
+          xargs -0 -I{} markdownlint "{}" --config .markdownlint.yaml ;
+
+      - name: Lint Markdown Files with JSON config
+        if: ${{ !cancelled() }}
+        run: |
+          git ls-files --exclude-standard -z -- *.md **/*.md |\
+          xargs -0 -I{} markdownlint "{}" --config .markdownlint.json ;
