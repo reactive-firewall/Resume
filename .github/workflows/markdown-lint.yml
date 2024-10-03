@@ -35,4 +35,4 @@ jobs:
       - name: Lint Markdown Files
         run: |
           git ls-files --exclude-standard -z -- *.md **/*.md |\
-          xargs -0 -I{} markdownlint "{}" --config .markdownlint.yaml --verbose ;
+          xargs -0 -I{} markdownlint "{}" --config .markdownlint.json --verbose ;
