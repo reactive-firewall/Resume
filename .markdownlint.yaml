@@ -1,0 +1,20 @@
+# .markdownlint.yaml
+# extends: markdownlint:recommended
+
+MD001: true   # Enforce proper heading increments
+MD026:  # Disallow trailing punctuation in headings
+  punctuation: ",;:!"  # - ('1.', '2.', etc. are ok though)
+
+# Disable or customize rules
+MD013: false    # Disable line length rule for flexibility
+MD033: false            # Allow inline HTML if needed
+MD034: false            # Allow bare URLs
+
+# Customizations
+MD007:
+  indent: 4             # Set unordered list indentation to 4 spaces
+MD029:
+  style: ordered        # Enforce ordered list item prefix style
+
+# Exclusions
+MD041: false            # Allow files to start without a top-level heading

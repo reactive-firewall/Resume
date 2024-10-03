@@ -1,0 +1,16 @@
+{
+  "MD001": true,
+  "MD026": {
+    "punctuation": ",;:!"
+  },
+  "MD013": false,
+  "MD033": false,
+  "MD034": false,
+  "MD007": {
+    "indent": 4
+  },
+  "MD029": {
+    "style": "ordered"
+  },
+  "MD041": false
+}
