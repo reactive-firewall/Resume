@@ -30,16 +30,21 @@ jobs:
 
       - name: Install NPM Dependencies
         run: |
-          sudo npm install -g markdownlint-cli@latest
+          sudo npm install -g markdownlint
+          sudo npm install markdownlint-cli2 --global
+
+      - name: Lint YAML config for markdown
+        run: |
+          yamllint -f github --no-warnings .markdownlint.yaml
 
       - name: Lint Markdown Files with YAML config
         if: ${{ !cancelled() }}
         run: |
           git ls-files --exclude-standard -z -- *.md **/*.md |\
-          xargs -0 -I{} markdownlint "{}" --config .markdownlint.yaml ;
+          xargs -0 -I{} markdownlint-cli2 "{}" --config .markdownlint.yaml ;
 
       - name: Lint Markdown Files with JSON config
         if: ${{ !cancelled() }}
         run: |
           git ls-files --exclude-standard -z -- *.md **/*.md |\
-          xargs -0 -I{} markdownlint "{}" --config .markdownlint.json ;
+          xargs -0 -I{} markdownlint-cli2 "{}" --config .markdownlint.json ;

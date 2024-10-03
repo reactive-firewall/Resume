@@ -1,5 +1,4 @@
 # .markdownlint.yaml
----
 extends: markdownlint:recommended
 
 MD001: true   # Enforce proper heading increments
