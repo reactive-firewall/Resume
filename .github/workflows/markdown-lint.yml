@@ -30,9 +30,9 @@ jobs:
 
       - name: Install NPM Dependencies
         run: |
-          sudo npm install -g markdownlint-cli
+          sudo npm install -g markdownlint-cli@latest
 
       - name: Lint Markdown Files
         run: |
           git ls-files --exclude-standard -z -- *.md **/*.md |\
-          xargs -0 -I{} markdownlint "{}" --config .markdownlint.yaml ;
+          xargs -0 -I{} markdownlint "{}" --config .markdownlint.yaml --verbose ;
